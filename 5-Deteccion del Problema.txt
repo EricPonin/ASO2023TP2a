@@ -1,0 +1,8 @@
+Que problema se puede ver a simple vista?
+	-Se observa que un solo hilo entra en ejecucion y en pocas ocasiones el otro hilo logra 
+	realizar alguna pasada, o incluso dos hilos coman la misma hamburguesa
+
+Que nombre se le da a esta falla que ocurre en el codigo que provoca que cada ejecucion presente resultados diferentes?
+	-A este problema se le conoce como RACE CONDITION o condicion de carrera, se produce cuando mas de un proceso
+	 trabaja sobre un mismo recurso compartido y no se realiza en la secuencia que el programador esperaba.
+

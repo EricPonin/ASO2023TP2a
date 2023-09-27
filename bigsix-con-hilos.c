@@ -7,7 +7,7 @@ int cantidad_restante_hamburguesas = CANTIDAD_INICIAL_HAMBURGUESAS;
 
 
 void *comer_hamburguesa(void *tid) { 
-while(1 == 1){ //repetir infinitamente hasta que fuerce la terminacion del hilo con pthread_exit
+while(1==1){ //repetir infinitamente hasta que fuerce la terminacion del hilo con pthread_exit
 	
 	if (cantidad_restante_hamburguesas > 0) {
 	printf("Hola! soy el hilo(comensal) %d , me voy a comer una hamburguesa ! ya que todavia queda/n %d \n",tid, cantidad_restante_hamburguesas);
